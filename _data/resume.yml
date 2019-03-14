@@ -42,13 +42,13 @@ main: #简历主要内容，
 - type: skills
   # name: "技能"
   content:
-  - title: 编程语言
+  - title: 办公软件
     items: #itmems 可以小块的方式显示
-    - JAVA
-    - JavaScript
-    - Python
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - PPT
+    -  EXCEL 
+    - WORD 
+  - title: 其他技能
+    summary: 摄影, 视频剪辑以及后期处理, PS照片处理
 
 - type: experience
   name: 经验
@@ -56,11 +56,11 @@ main: #简历主要内容，
   - title: 副会长
     sub: 就业创业发展协会
     duration: "2018年10月 - 2019年7月"
- #   tags:
- #   - 标签
- #   summary: 职务或者工作总结(自动折叠)
- #   detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
+    tags:
+    - 标签
+    summary: 统筹处理关于毕业生就业相关的所有工作
+    detail: 就业技能培训，就业签约知识讲座，就业信息收集记录，联系已毕业校友等
+    open: open
     #可以设置open默认展开
  # - title: Job Title
  #   sub: Your 2nd, Inc.  
@@ -89,7 +89,7 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
+  # - 单行文
   - title: "特长:"
     text: "PS，摄影，视频剪辑"
   - title: "兴趣:"
