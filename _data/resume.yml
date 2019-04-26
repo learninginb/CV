@@ -45,7 +45,7 @@ main: #简历主要内容，
   - title: 办公软件
     items: #itmems 可以小块的方式显示
     - PPT
-    -  EXCEL 
+    - EXCEL 
     - WORD 
   - title: 其他技能
     summary: 摄影, 视频剪辑以及后期处理, PS照片处理
@@ -59,7 +59,15 @@ main: #简历主要内容，
     tags:
     - 标签
     summary: 统筹处理关于毕业生就业相关的所有工作
-    detail: 就业技能培训，就业签约知识讲座，就业信息收集记录，联系已毕业校友等
+    detail: 就业技能培训，就业签约知识讲座，职业规划大赛
+    open: open
+  - title: 副会长
+    sub: 就业创业发展协会
+    duration: "2018年10月 - 2019年7月"
+    tags:
+    - 标签
+    summary: 统筹处理关于毕业生就业相关的所有工作
+    detail: 就业技能培训，就业签约知识讲座，职业规划大赛
     open: open
     #可以设置open默认展开
  # - title: Job Title
@@ -70,13 +78,13 @@ main: #简历主要内容，
  #   summary: Summary your job or work. (Collapse)
  #  detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-#- type: projects
-#  name: Projects
-#  content:
-#  - title: 项目名称
-#   duration: xxxx年xx月 - yyyy年yy月
-#    detail: 项目和工作介绍，项目总结.
-#    sub: 维护者
+- type: projects
+  name: Projects
+  content:
+  - title: 项目名称
+   duration: xxxx年xx月 - yyyy年yy月
+    detail: 项目和工作介绍，项目总结.
+    sub: 维护者
 #  - title: Project Name
 #    summary: Projects' introduction or summary
 #    detail:
