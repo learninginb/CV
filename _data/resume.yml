@@ -42,25 +42,29 @@ main: #简历主要内容，
 - type: skills
   # name: "技能"
   content:
-  - title: 办公软件
+  - title: 熟练使用
     items: #itmems 可以小块的方式显示
-    - PPT
-    - EXCEL 
-    - WORD 
+    - java
+    - spring 
+    - springmvc 
+    - mybatis
+    - javascript 
+    - mysql 
+    - redis
+  - title: 比较熟悉
+    items: #itmems 可以小块的方式显示
+    - python
+    - springboot
+    - SVN
+    - GIT
+    - activeMQ
+    - linux
   - title: 其他技能
     summary: 摄影, 视频剪辑以及后期处理, PS照片处理
 
 - type: experience
   name: 经验
   content:
-  - title: 副会长
-    sub: 就业创业发展协会
-    duration: "2018年10月 - 2019年7月"
-    tags:
-    - 标签
-    summary: 统筹处理关于毕业生就业相关的所有工作
-    detail: 就业技能培训，就业签约知识讲座，职业规划大赛
-    open: open
   - title: 副会长
     sub: 就业创业发展协会
     duration: "2018年10月 - 2019年7月"
@@ -81,10 +85,18 @@ main: #简历主要内容，
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
-   duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
+  - title: 化工仿真平台
+   duration: 2017年04月 - 2019年4月
+    detail: 一个用于事故仿真的网站，springMVC架构，使用了mybatis封装jdbc，redis存储算法模型历史数据，websocket做与网页通讯接口，activeMQ做第三方通讯接口
+    sub: 全程参与开发
+  - title: 体育理论考试系统
+   duration: 2017年010月 - 2017年11月
+    detail: 用于北化和郑大等学校本科生体育理论考试的网页端和app，python编写，django框架。运行在内存4G的云服务器上，可支持郑州大学一万多名本科生一周内考完。
+    sub: 单独开发
+  - title: 采购招标网站爬虫
+   duration: 2017年010月 - 2017年10月
+    detail: 用于每天爬取某些关键词在多家采购招标网站招标信息，存数据库里，网页展示。
+    sub: 单独开发
 #  - title: Project Name
 #    summary: Projects' introduction or summary
 #    detail:
@@ -98,13 +110,14 @@ others: #其他列表显示
   name: '其他'
   content: #选择需要的格式
   # - 单行文
-  - title: "特长:"
-    text: "PS，摄影，视频剪辑"
-  - title: "兴趣:"
+  - title: "其他技能:"
     items: #单行列表
-    - 骑行
-    - 读书
-    - 编程
+    - python
+    - springboot
+    - SVN
+    - GIT
+    - activeMQ
+    - linux
   #- title: 列表
   #  list:
  #   - 第一项
