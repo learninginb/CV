@@ -5,7 +5,7 @@ title: "简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "许祺"
 jobtitle: "java开发 实习" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "assets/img/xuqiPhoto.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
@@ -37,7 +37,7 @@ main: #简历主要内容，
   - title: 北京化工大学
     duration: "2013年9月 - 2017年7月"
     sub: 本科
-    detail: 自动化 GPA:2.9 (前20%)
+    detail: 自动化 GPA:3.0 (前20%)
 
 - type: skills
   name: "技能"
@@ -76,10 +76,10 @@ main: #简历主要内容，
     duration: 2017年010月 - 2017年11月
     detail: 用于北化和郑大等学校本科生体育理论考试的网页端和app，python编写，django框架。运行在内存4G的云服务器上，可支持郑州大学一万多名本科生一周内考完。
     sub: 单独开发
-  - title: 采购招标网站爬虫
-    duration: 2017年010月 - 2017年11月
-    detail: 用于每天爬取某些关键词在多家采购招标网站招标信息，存数据库里，网页展示。
-    sub: 单独开发
+  #- title: 采购招标网站爬虫
+  #  duration: 2017年010月 - 2017年11月
+  #  detail: 用于每天爬取某些关键词在多家采购招标网站招标信息，存数据库里，网页展示。
+  #  sub: 单独开发
    #可继续添加更多内容
 - type: experience
   name: 经历
@@ -91,12 +91,12 @@ main: #简历主要内容，
     detail: 就业技能培训，就业签约知识讲座，职业规划大赛，就业白皮书，数据处理
     open: open
     #可以设置open默认展开
-  - title: 部长
-    sub: 学生新闻中心编辑部
-    duration: 2014年9月 - 2016年7月
-    summary: 学校媒体的编辑部，纸媒和新媒体都有
-    detail: 出版校刊，公众号推送，制作海报，拍摄及后期
-    open: open
+#  - title: 部长
+#    sub: 学生新闻中心编辑部
+#    duration: 2014年9月 - 2016年7月
+#    summary: 学校媒体的编辑部，纸媒和新媒体都有
+#    detail: 出版校刊，公众号推送，制作海报，拍摄及后期
+#    open: open
 
 #others 其他简略内容(列表)
 others: #其他列表显示
@@ -104,10 +104,11 @@ others: #其他列表显示
   name: '个人评价'
   content: #选择需要的格式
   - title: "主攻后端，其他方面均有涉猎，java开发经验两年。热爱技术，自学能力强，善于实践。"
-   # text: "列表项二"
+    text: " "
   - title: "实验室大师兄，负责管理实验室的服务器，有良好的心态、情商与沟通能力。"
-    items: #单行列表
-    #- 睡觉
+    text: " "
+    #items: #单行列表
+   # - 睡觉
     #- 吃饭
     #- coding
   #- title: 列表
