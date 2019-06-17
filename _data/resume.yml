@@ -4,7 +4,7 @@
 title: "简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "许祺"
-jobtitle: "java开发" #可空不显示
+jobtitle: "java开发 实习" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
@@ -19,6 +19,9 @@ contact: #联系方式连接等3~5行
   href: 'https://github.com/learninginb'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
+- text: "CSDN博客"
+  href: 'https://blog.csdn.net/xuqimm'
+  attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
 
@@ -30,11 +33,11 @@ main: #简历主要内容，
   - title: 北京化工大学
     duration: "2017年9月 - 2020年7月"
     sub: 研究生
-    detail: 控制科学与工程
+    detail: 控制科学与工程 GPA:3.2 (4/34)
   - title: 北京化工大学
     duration: "2013年9月 - 2017年7月"
     sub: 本科
-    detail: 自动化
+    detail: 自动化 GPA:2.9 (前20%)
 
 - type: skills
   name: "技能"
@@ -56,36 +59,16 @@ main: #简历主要内容，
     - GIT
     - activeMQ
     - linux
-  #- title: Skill Group
-  # summary: Consectetur, Adipiscing, Elit
-
-- type: experience
-  name: 经历
-  content:
-  - title: 会长
-    sub: 学院就业创业发展协会
-    duration: "2018年10月 - 2019年7月"
-    tags:
-    - 标签
-    summary: 统筹处理关于毕业生就业相关的所有工作
-    detail: 就业技能培训，就业签约知识讲座，职业规划大赛
-    open: open
-    #可以设置open默认展开
-  - title: 部长
-    sub: 学生新闻中心编辑部
-    duration: 2014年9月 - 2016年7月
-    tags: 
-    - 标签
-    summary: 制作校刊，制作海报，
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  - title: 其他技能
+    items: 摄影, 视频剪辑以及后期处理, PS照片处理
 
 - type: projects
   name: 项目
   content:
   - title: 化工仿真平台
     duration: 2017年04月 - 2019年6月
-    detail: 一个用于事故仿真的网站，springMVC架构，使用了mybatis封装jdbc，redis存储算法模型历史数据，websocket做与网页通讯接口，activeMQ做第三方通讯接口
-    sub: 全程参与开发
+    detail: 实验室主导开发用来做化工仿真培训以及事故分析的B/S架构软件，springMVC架构，使用了mybatis封装jdbc，redis存储算法模型实时数据，websocket做与网页通讯接口，activeMQ做第三方通讯接口，shiro做权限管理。用户可上传jar包，使用图形组模方式将算法串联起来，可多用户进行动态仿真。实验室近两年的7个科研横向项目全都基于此平台。此平台代码数超过20w行，性能稳定，有5家化工厂和研究院都在使用。
+    sub: 全程参与，共2人开发
   - title: 体育理论考试系统
     duration: 2017年010月 - 2017年11月
     detail: 用于北化和郑大等学校本科生体育理论考试的网页端和app，python编写，django框架。运行在内存4G的云服务器上，可支持郑州大学一万多名本科生一周内考完。
@@ -95,11 +78,27 @@ main: #简历主要内容，
     detail: 用于每天爬取某些关键词在多家采购招标网站招标信息，存数据库里，网页展示。
     sub: 单独开发
    #可继续添加更多内容
+- type: experience
+  name: 经历
+  content:
+  - title: 会长
+    sub: 学院就业创业发展协会
+    duration: "2018年10月 - 2019年7月"
+    summary: 统筹处理关于毕业生就业相关的所有工作
+    detail: 就业技能培训，就业签约知识讲座，职业规划大赛，就业白皮书，数据处理
+    open: open
+    #可以设置open默认展开
+  - title: 部长
+    sub: 学生新闻中心编辑部
+    duration: 2014年9月 - 2016年7月
+    summary: 学校媒体的编辑部，纸媒和新媒体都有
+    detail: 出版校刊，公众号推送，制作海报，拍摄及后期
+    open: open
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: '个人评价'
   content: #选择需要的格式
   - 单行文字
   - title: "加粗:"
@@ -126,7 +125,7 @@ footer: #脚注多组
   - text: "简历脚注"
   #   href: '/'
   - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+    href: "https://learninginb.github.io/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
