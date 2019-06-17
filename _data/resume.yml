@@ -59,11 +59,7 @@ main: #简历主要内容，
     - GIT
     - activeMQ
     - python
-  - title: 其他技能
-    items: 
-    - 摄影
-    - 视频剪辑以及后期处理
-    - PS照片处理
+
 
 - type: projects
   name: 项目
