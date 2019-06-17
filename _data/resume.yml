@@ -76,13 +76,13 @@ main: #简历主要内容，
     duration: 2017年010月 - 2017年11月
     detail: 用于北化和郑大等学校本科生体育理论考试的网页端和app，python编写，django框架。运行在内存4G的云服务器上，可支持郑州大学一万多名本科生一周内考完。
     sub: 单独开发
-  #- title: 采购招标网站爬虫
-  #  duration: 2017年010月 - 2017年11月
-  #  detail: 用于每天爬取某些关键词在多家采购招标网站招标信息，存数据库里，网页展示。
-  #  sub: 单独开发
+  - title: 蛋白质序列分类
+    duration: 2018年01月 - 2018年6月
+    detail: 基于卷积神经网络的蛋白质序列分类系统(Classification of G‑protein coupled receptors based on a rich generation of convolutional neural network, N‑gram transformation and multiple sequence alignments)，使用Keras框架。我负责编写所有代码和神经网络调参。发刊于《Amino Acids》影响因子3.0
+    sub: 第三作者
    #可继续添加更多内容
 - type: experience
-  name: 经历
+  name: 学生工作
   content:
   - title: 会长
     sub: 学院就业创业发展协会
