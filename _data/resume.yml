@@ -19,7 +19,7 @@ contact: #联系方式连接等3~5行
   href: 'https://github.com/learninginb'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-- text: "CSDN博客"
+- text: "CSDN：xuqimm"
   href: 'https://blog.csdn.net/xuqimm'
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
@@ -53,21 +53,24 @@ main: #简历主要内容，
     - redis
   - title: 比较熟悉
     items: #itmems 可以小块的方式显示
-    - python
+    - linux
     - springboot
     - SVN
     - GIT
     - activeMQ
-    - linux
+    - python
   - title: 其他技能
-    items: 摄影, 视频剪辑以及后期处理, PS照片处理
+    items: 
+    -摄影
+    -视频剪辑以及后期处理
+    -PS照片处理
 
 - type: projects
   name: 项目
   content:
   - title: 化工仿真平台
     duration: 2017年04月 - 2019年6月
-    detail: 实验室主导开发用来做化工仿真培训以及事故分析的B/S架构软件，springMVC架构，使用了mybatis封装jdbc，redis存储算法模型实时数据，websocket做与网页通讯接口，activeMQ做第三方通讯接口，shiro做权限管理。用户可上传jar包，使用图形组模方式将算法串联起来，可多用户进行动态仿真。实验室近两年的7个科研横向项目全都基于此平台。此平台代码数超过20w行，性能稳定，有5家化工厂和研究院都在使用。
+    detail: 化工仿真培训以及事故分析平台，springMVC架构，使用了mybatis封装jdbc，redis存储算法模型实时数据，websocket做与网页通讯接口，activeMQ做第三方通讯接口，shiro做权限管理。用户可上传jar包，使用图形组模方式将算法串联起来，可多用户同时进行动态仿真。实验室近两年的7个科研横向项目全都基于此平台。此平台代码数超过20w行，性能稳定，现有5家化工厂和研究院都在使用。
     sub: 全程参与，共2人开发
   - title: 体育理论考试系统
     duration: 2017年010月 - 2017年11月
@@ -100,18 +103,17 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '个人评价'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
+  - title: "主攻后端，其他方面均有涉猎，java开发经验两年。热爱技术，自学能力强，善于实践。"
+   # text: "列表项二"
+  - title: "实验室大师兄，负责管理实验室的服务器，有良好的心态、情商与沟通能力。"
     items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+    #- 睡觉
+    #- 吃饭
+    #- coding
+  #- title: 列表
+  #  list:
+  #  - 第一项
+  #  - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
@@ -124,7 +126,7 @@ footer: #脚注多组
   screen:
   - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
+  - text: "Made with &hearts; by Xu Qi"
     href: "https://learninginb.github.io/CV/"
 
 #页面额外js脚本，如xx统计
