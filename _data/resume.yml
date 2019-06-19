@@ -45,21 +45,22 @@ main: #简历主要内容，
   - title: 熟练使用
     items: #itmems 可以小块的方式显示
     - java
+    - python
     - spring 
     - springmvc 
     - mybatis
     - javascript 
     - mysql 
     - redis
+    - 爬虫
   - title: 比较熟悉
     items: #itmems 可以小块的方式显示
     - linux
     - springboot
+    - docket
     - SVN
     - GIT
     - activeMQ
-    - python
-
 
 - type: projects
   name: 项目
