@@ -100,7 +100,17 @@ main: #简历主要内容，
     open: open
 
 #others 其他简略内容(列表)
+
 others: #其他列表显示
+- type: others #ID可以为空
+  name: '获得荣誉'
+  content: #选择需要的格式
+  - title: "2017年全国研究生数学建模大赛三等奖"
+    text: " "
+  - title: "2018年校级优秀研究生干部"
+    text: " "
+    - title: "2017-2018学年特等学业奖学金(一万两千元)"
+    text: " "
 - type: others #ID可以为空
   name: '个人评价'
   content: #选择需要的格式
