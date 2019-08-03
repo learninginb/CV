@@ -46,8 +46,8 @@ main: #简历主要内容，
     items: #itmems 可以小块的方式显示
     - java
     - python
-    - spring 
-    - springmvc 
+    - spring
+    - spark
     - mybatis
     - javascript 
     - mysql 
@@ -66,7 +66,7 @@ main: #简历主要内容，
   name: 项目
   content:
   - title: 化工仿真平台
-    duration: 2017年04月 - 2019年6月
+    duration: 2017年04月 - 2019年5月
     detail: 化工仿真培训以及事故分析平台，springMVC架构，使用了mybatis封装jdbc，redis存储算法模型实时数据，websocket做与网页通讯接口，activeMQ做第三方通讯接口，shiro做权限管理。用户可上传jar包，使用图形组模方式将算法串联起来，可多用户同时进行动态仿真。实验室近两年的7个科研横向项目全都基于此平台。此平台代码数超过20w行，性能稳定，现有5家化工厂和研究院都在使用。
     sub: 全程参与，共2人开发
   - title: 体育理论考试系统
@@ -77,6 +77,14 @@ main: #简历主要内容，
     duration: 2018年01月 - 2018年6月
     detail: 基于卷积神经网络的蛋白质序列分类系统(Classification of G‑protein coupled receptors based on a rich generation of convolutional neural network, N‑gram transformation and multiple sequence alignments)，使用Keras框架。我负责编写所有代码和神经网络调参。发刊于《Amino Acids》影响因子3.0
     sub: 第三作者
+  - title: 数据治理平台
+    duration: 2019年06月 - 2018年7月
+    detail: 图形化操作数据，配置各类算子，即可生成sparksql语句并形成任务流，让不会编程的人也可以操作数据，极大地降低了数据分析的门槛，不用关心大数据处理的技术以及各类数据库的区别，更直观的看到数据的血缘以及处理关系。我是唯一一个后台开发。
+    sub: 联洋国融实习
+  - title: 位置产品项目组
+    duration: 2019年07月 - 2018年8月
+    detail: 从互联网数据中心提取出运营商关于所有手机号的实时位置信息，用HBase存储。然后提取出目标手机号组的数据存储到redis中，供API调用。主要用于公安监控重点人物，以及银联防止信用卡盗刷等，总数据库10亿条，目标数据20万条。我主要工作是检索HBase获取目标手机号数据。
+    sub: 联洋国融实习
    #可继续添加更多内容
 - type: experience
   name: 学生工作
