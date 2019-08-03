@@ -102,7 +102,7 @@ main: #简历主要内容，
 #others 其他简略内容(列表)
 
 others: #其他列表显示
-- type: others #ID可以为空
+- type: honour #ID可以为空
   name: '获得荣誉'
   content: #选择需要的格式
   - title: "2017年全国研究生数学建模大赛三等奖"
