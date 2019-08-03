@@ -73,10 +73,6 @@ main: #简历主要内容，
     duration: 2017年010月 - 2017年11月
     detail: 用于北化和郑大等学校本科生体育理论考试的网页端和app，python编写，django框架。运行在内存4G的云服务器上，可支持郑州大学一万多名本科生一周内考完。
     sub: 单独开发
-  - title: 蛋白质序列分类
-    duration: 2018年01月 - 2018年6月
-    detail: 基于卷积神经网络的蛋白质序列分类系统(Classification of G‑protein coupled receptors based on a rich generation of convolutional neural network, N‑gram transformation and multiple sequence alignments)，使用Keras框架。我负责编写所有代码和神经网络调参。发刊于《Amino Acids》影响因子3.0
-    sub: 第三作者
   - title: 数据治理平台
     duration: 2019年06月 - 2018年7月
     detail: 图形化操作数据，配置各类算子，即可生成sparksql语句并形成任务流，让不会编程的人也可以操作数据，极大地降低了数据分析的门槛，不用关心大数据处理的技术以及各类数据库的区别，更直观的看到数据的血缘以及处理关系。我是唯一一个后台开发。
@@ -96,12 +92,12 @@ main: #简历主要内容，
     detail: 就业技能培训，就业签约知识讲座，职业规划大赛，就业白皮书，数据处理
     open: open
     #可以设置open默认展开
-#  - title: 部长
-#    sub: 学生新闻中心编辑部
-#    duration: 2014年9月 - 2016年7月
-#    summary: 学校媒体的编辑部，纸媒和新媒体都有
-#    detail: 出版校刊，公众号推送，制作海报，拍摄及后期
-#    open: open
+  - title: 部长
+    sub: 学生新闻中心编辑部
+    duration: 2014年9月 - 2016年7月
+    summary: 学校媒体的编辑部，纸媒和新媒体都有
+    detail: 出版校刊，公众号推送，制作海报，拍摄及后期
+    open: open
 
 #others 其他简略内容(列表)
 others: #其他列表显示
