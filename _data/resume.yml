@@ -5,23 +5,25 @@ title: "简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "许祺"
 jobtitle: "1995.10.17 陕西延安" #可空不显示
-photo: "assets/img/xuqiPhoto.jpg" #照片可空，不显示
+photo: "assets/img/xuqi.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "xuqi1017@outlook.com" #文本内容
-  href: 'mailto:xuqi1017@outlook.com' #链接，无链接则空  
+- text: "674954347@qq.com" #文本内容
+  href: '674954347@qq.com' #链接，无链接则空
   icon: 'icons/email.svg' #图标 svg文件
 - text: "13260359609"
   href: 'tel:13260359609'
   icon: 'icons/phone.svg'
-- text: "learninginb"
-  href: 'https://github.com/learninginb'
-  icon: "icons/github.svg"
-  attr: 'target="_blank"' #新标签页打开
-- text: "CSDN：xuqimm"
-  href: 'https://blog.csdn.net/xuqimm'
-  attr: 'target="_blank"' #新标签页打开
+- text: "微信：13260359609"
+#  href: 'https://blog.csdn.net/xuqimm'
+#- text: "learninginb"
+#  href: 'https://github.com/learninginb'
+#  icon: "icons/github.svg"
+#  attr: 'target="_blank"' #新标签页打开
+#- text: "CSDN：xuqimm"
+#  href: 'https://blog.csdn.net/xuqimm'
+#  attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
 
@@ -33,11 +35,14 @@ main: #简历主要内容，
   - title: 北京化工大学
     duration: "2017年9月 - 2020年7月"
     sub: 研究生
-    detail: 控制科学与工程 GPA:3.2 (4/34)
+    detail: 控制科学与工程
+#    detail: 控制科学与工程 GPA:3.2 (4/34)
+
   - title: 北京化工大学
     duration: "2013年9月 - 2017年7月"
     sub: 本科
-    detail: 自动化 GPA:3.0 (前20%)
+    detail: 自动化
+#    detail: 自动化 GPA:3.0 (前20%)
 
 - type: skills
   name: "技能"
@@ -45,57 +50,56 @@ main: #简历主要内容，
   - title: 熟练使用
     items: #itmems 可以小块的方式显示
     - java
-    - python
     - spring
-    - mybatis
-    - javascript 
-    - mysql 
+    - postgresql
     - redis
-    
+    - mysql
   - title: 比较熟悉
     items: #itmems 可以小块的方式显示
     - linux
-    - springboot
-    - GIT
-    - activeMQ
-    - spark
+    - docker
+    - kafka
+- type: others #ID可以为空
+  name: '个人评价'
+  content: #选择需要的格式
+    - title: "主攻java，崇尚优雅，喜欢规范，谨记设计模式及思想，以写出高可维护的代码为目标。经常做组件来简化搬砖，在公司内开源了开发脚手架，查询分页插件，查询排序插件，数据裁剪插件，多级缓存插件等多个开发工具。希望能遇到志同道合的朋友。"
+      text: " "
 
 - type: projects
   name: 项目
   content:
+  - title: 智慧园区物联管理平台
+    duration: 2021年03月 - 2022年9月
+    detail: "为数字化园区提供包含安防，通行，能源，设备运维、商家服务等模块的解决方案。定制化交付1个大型园区，标准交付5个小型园区，软件部分总销售额超5千万。/n 使用SpringBoot，Redis，Postgresql，kafka等技术 /n 开发团队共20人，本人负责多协议消息推送(app,sms,email,websocket,web)，设备管理，空间管理，用户管理，统一告警、联动等模块的后端开发 "
+  - title: 智慧园区物联管理平台
+    duration: 2020年09月 - 2021年12月
+    detail: "业务中台定位，包含开发脚手架，api网关，服务治理，用户管理，认证授权，多身份源治理等模块。支持微服务和单体式架构。开发脚手架中包含代码生成，orm，日志收集，多级缓存，事件总线，参数校验，数据聚合裁剪，树形数据结构，api同步，服务注册等多个通用功能，方便业务开发快速启项目。支持组织内部超10个标准项目，上百个交付项目。/n 使用SpringBoot，SpringCloudGateway，Oauth2，Redis，Postgresql，nacos等技术 /n 后端开发共2人，本人负责开发脚手架，api网关，用户管理的开发。 "
+  - title: 智慧取餐柜
+    duration: 2020年07月 - 2021年8月
+    detail: "给KFC定制化开发，类似快递柜一样的取餐柜，外卖员存餐，用户取餐，会放到公寓或写字楼一层。至今仍在使用，有上百个柜子，工作日有上万个订单。有用户管理，取餐柜管理，运营统计等功能。/n 使用SpringBoot，Postgresql，docker等技术 /n 本人负责后端开发和运维 "
   - title: 化工仿真平台
-    duration: 2017年04月 - 2019年5月
-    detail: 化工仿真培训以及事故分析平台，springMVC架构，使用了mybatis封装jdbc，redis存储算法模型实时数据，websocket做与网页通讯接口，activeMQ做第三方通讯接口。用户可上传jar包，使用图形组模方式将算法串联起来，可多用户同时进行动态仿真。实验室近两年的7个科研横向项目全都基于此平台。此平台代码数超过20w行，性能稳定，现有5家化工厂和研究院都在使用。
-    sub: 全程参与，共2人开发
-  - title: 体育理论考试系统
-    duration: 2017年010月 - 2017年11月
-    detail: 用于北化和郑大等学校本科生体育理论考试的网页端和app，python编写，django框架。运行在内存4G的云服务器上，可支持郑州大学一万多名本科生一周内考完。
-    sub: 单独开发
-  - title: 数据治理平台
-    duration: 2019年06月 - 2019年7月
-    detail: 图形化操作数据，配置各类算子，即可生成sparksql语句并形成任务流，让不会编程的人也可以操作数据，极大地降低了数据分析的门槛，不用关心大数据处理的技术以及各类数据库的区别，更直观的看到数据的血缘以及处理关系。我是唯一一个后台开发。
-    sub: 联洋国融实习
-  - title: 位置产品项目组
-    duration: 2019年07月 - 2019年8月
-    detail: 从互联网数据中心提取出运营商关于所有手机号的实时位置信息，用Hive存储。然后提取出目标手机号组的数据存储到redis中，供API调用。主要用于公安监控重点人物，以及银联防止信用卡盗刷等，总数据库10亿条，目标数据20万条。我主要工作是检索Hive获取数据并推送。
-    sub: 联洋国融实习
+    duration: 2017年04月 - 2020年5月
+    detail: "化工仿真培训以及事故分析平台，包含化工流程组态和化工流程仿真，springMVC架构，使用redis实时数据，websocket与第三方通讯。用户可上传算法jar包，使用图形组模方式将算法串联起来，可多用户同时进行动态仿真。实验室2017年到2020年的7个科研横向项目全都基于此平台。现有(2022)仍在使用使用。 /n 共3人开发，本人全程参与做了三年"
+
+
+
    #可继续添加更多内容
-- type: experience
-  name: 学生工作
-  content:
-  - title: 会长
-    sub: 学院就业创业发展协会
-    duration: "2018年10月 - 2019年7月"
-    summary: 统筹处理关于毕业生就业相关的所有工作
-    detail: 就业技能培训，就业签约知识讲座，职业规划大赛，就业白皮书，数据处理
-    open: open
-    #可以设置open默认展开
-  - title: 部长
-    sub: 学生新闻中心编辑部
-    duration: 2014年9月 - 2016年7月
-    summary: 学校媒体的编辑部，纸媒和新媒体都有
-    detail: 出版校刊，公众号推送，制作海报，拍摄及后期
-    open: open
+#- type: experience
+#  name: 学生工作
+#  content:
+#  - title: 会长
+#    sub: 学院就业创业发展协会
+#    duration: "2018年10月 - 2019年7月"
+#    summary: 统筹处理关于毕业生就业相关的所有工作
+#    detail: 就业技能培训，就业签约知识讲座，职业规划大赛，就业白皮书，数据处理
+#    open: open
+#    #可以设置open默认展开
+#  - title: 部长
+#    sub: 学生新闻中心编辑部
+#    duration: 2014年9月 - 2016年7月
+#    summary: 学校媒体的编辑部，纸媒和新媒体都有
+#    detail: 出版校刊，公众号推送，制作海报，拍摄及后期
+#    open: open
 
 #others 其他简略内容(列表)
 
@@ -103,19 +107,31 @@ others: #其他列表显示
 - type: skills #ID可以为空
   name: '获得荣誉'
   content: #选择需要的格式
-  - title: "2017年全国研究生数学建模大赛三等奖"
+  - title: "2020年北京市优秀毕业研究生"
     text: " "
   - title: "2018年校级优秀研究生干部"
     text: " "
-  - title: "2017-2018学年特等学业奖学金(一万两千元)"
+  - title: "2017年全国研究生数学建模大赛三等奖"
     text: " "
-- type: others #ID可以为空
-  name: '个人评价'
+- type: skills #ID可以为空
+  name: '专利'
   content: #选择需要的格式
-  - title: "主攻后端，其他方面均有涉猎，java开发经验两年。热爱技术，自学能力强，善于实践。"
-    text: " "
-  - title: "实验室大师兄，负责管理实验室的服务器，有良好的心态、情商与沟通能力。"
-    text: " "
+    - title: "一种可配置的网关通讯协议解析转换系统"
+      text: " "
+    - title: "一种基于服务发现的分布式微服务编排方法"
+      text: " "
+    - title: "一种基于可视化的通用统计接口生成方法"
+      text: " "
+    - title: "一种分布式延时消息队列系统"
+      text: " "
+
+#- type: others #ID可以为空
+#  name: '个人评价'
+#  content: #选择需要的格式
+#  - title: "喜欢做有意思的事。经常做组件来简化搬砖的活，公司内开源了开发脚手架，查询分页插件，查询排序插件，数据裁剪插件，接口多版本插件，多级缓存插件等多个开发工具。希望能遇到志同道合的朋友。"
+#    text: " "
+#  - title: "实验室大师兄，负责管理实验室的服务器，有良好的心态、情商与沟通能力。"
+#    text: " "
     #items: #单行列表
    # - 睡觉
     #- 吃饭
