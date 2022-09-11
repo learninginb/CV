@@ -45,6 +45,7 @@ main: #简历主要内容，
   - title: 京东方科技股份有限公司
     duration: "2020年9月 - 今"
     sub: 后端开发岗
+    detail: 智慧物联组织-园区产品部门
 
 - type: skills
   name: "技能"
