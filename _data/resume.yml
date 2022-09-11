@@ -30,7 +30,7 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育和工作 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 北京化工大学
     duration: "2017年9月 - 2020年7月"
@@ -41,12 +41,10 @@ main: #简历主要内容，
     duration: "2013年9月 - 2017年7月"
     sub: 本科
     detail: 自动化 GPA:3.0 (前20%)
-- type: work #类别为ID
-  name: 工作 #显示名称，空则使用type
-  content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-    - title: 京东方科技股份有限公司
-      duration: "2020年9月 - 今"
-      sub: 后端开发岗
+
+  - title: 京东方科技股份有限公司
+    duration: "2020年9月 - 今"
+    sub: 后端开发岗
 
 - type: skills
   name: "技能"
@@ -65,7 +63,7 @@ main: #简历主要内容，
     - kafka
 
 
-- type: projects1
+- type: projects
   name: 项目
   content:
   - title: 智慧园区物联管理平台
@@ -74,8 +72,9 @@ main: #简历主要内容，
   - title: 智慧园区物联管理平台
     duration: 2020年09月 - 2021年12月
     detail: " 业务中台定位，包含开发脚手架，api网关，服务治理，用户管理，认证授权，多身份源治理等模块。支持微服务和单体式架构。开发脚手架中包含代码生成，orm，日志收集，多级缓存，事件总线，参数校验，数据聚合裁剪，树形数据结构，api同步，服务注册等多个通用功能，方便业务开发快速启项目。支持组织内部超10个标准项目，上百个交付项目。<br /> 使用SpringBoot，SpringCloudGateway，Oauth2，Redis，Postgresql，nacos等技术。 <br /> 后端开发共2人，本人负责开发脚手架，api网关，用户管理的开发。 "
-- type: projects2
+- type: projectss
   name: 项目
+  content:
   - title: 智慧取餐柜
     duration: 2020年07月 - 2021年8月
     detail: " 给KFC定制化开发，类似快递柜一样的取餐柜，外卖员存餐，用户取餐，会放到公寓或写字楼一层。至今仍在使用，有上百个柜子，工作日有上万个订单。有用户管理，取餐柜管理，运营统计等功能。<br />   使用SpringBoot，Postgresql，docker等技术 <br /> 本人负责后端开发和运维。 "
