@@ -57,11 +57,12 @@ main: #简历主要内容，
     - postgresql
     - redis
     - mysql
+    - kafka
   - title: 比较熟悉
     items: #itmems 可以小块的方式显示
     - linux
     - docker
-    - kafka
+    - k8s
 
 
 - type: projects
@@ -126,7 +127,7 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '个人评价'
   content: #选择需要的格式
-    - title: "主攻java，崇尚优雅，喜欢规范，谨记设计模式及思想，以写出高可维护的代码为目标。经常做组件来简化搬砖，在公司内开源了开发脚手架，查询分页插件，查询排序插件，数据裁剪插件，多级缓存插件等多个开发工具。希望能遇到志同道合的朋友。"
+    - title: "3年Java后端开发工作经验，java，数据结构，计算机网络，设计模式等基础扎实, 熟练使用 spring, spring boot, mybatis等框架并阅读大部分源码。熟练使用redis，postgresql，mysql，kafka，RabbitMQ等中间件并了解其原理和设计思想。熟练使用nginx，docker，K8S，Jenkins等工具。经常做组件来重复工作，在公司内开源了开发脚手架，分页排序插件，数据裁剪插件，多级缓存插件等多个开发工具。希望能遇到志同道合的朋友。"
       text: " "
 
 #- type: others #ID可以为空
