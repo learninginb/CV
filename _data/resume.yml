@@ -50,30 +50,28 @@ main: #简历主要内容，
 - type: skills
   name: "技能"
   content:
-  - title: 熟练使用
+  - title: 基础
     items: #itmems 可以小块的方式显示
-    - java
-    - spring
-    - postgresql
-    - redis
-    - mysql
-    - kafka
-  - title: 比较熟悉
+    - java，jvm，数据结构，计算机网络，设计模式等基础扎实
+  - title: 框架
     items: #itmems 可以小块的方式显示
-    - linux
-    - docker
-    - k8s
-
+    - 熟练使用spring,springboot,mybatis等框架并阅读大部分源码，可基于框架进行二开
+  - title: 中间件
+    items: #itmems 可以小块的方式显示
+    - 熟练使用redis，postgresql，mysql，kafka等中间件并了解其原理和设计思想，会搭建集群
+  - title: 工具
+    items: #itmems 可以小块的方式显示
+    - 熟练使用nginx，docker，K8S，Jenkins,git等工具。
 
 - type: projects
   name: 项目
   content:
   - title: 智慧园区物联管理平台
-    duration: 2021年03月 - 2022年9月
-    detail: " 为文旅、商业园区提供包含安防，通行，能源，设备运维、商家服务等模块的解决方案。定制化交付1个大型园区，标准交付5个小型园区，软件部分总销售额超5千万。<br />  使用SpringBoot，Redis，Postgresql，kafka等技术。<br /> 开发团队共20人，本人负责多协议消息推送(app,sms,email,websocket,web)，设备管理，空间管理，用户管理，统一告警、联动等模块的后端开发。 "
+    duration: 2021年03月 - 2023年9月
+    detail: " 为文旅、商业园区提供包含安防，通行，能源监控，设备运维、商家服务，游客服务，导览导视等模块的解决方案。定制化交付2个大型园区，标准交付5个小型园区，软件部分总销售额超8千万。<br />  基于公司内部行业云平台底座，微服务架构，使用SpringBoot，Redis，Postgresql，kafka，mybatis等技术。<br /> 开发团队共20人，本人负责多协议消息推送，设备管理，事件告警联动，导览导视模块的后端开发。"
   - title: 行业云平台底座
     duration: 2020年09月 - 2021年12月
-    detail: " 业务中台定位，包含开发脚手架，api网关，服务治理，用户管理，认证授权，多身份源治理等模块。支持微服务和单体式架构。开发脚手架中包含代码生成，orm，日志收集，多级缓存，事件总线，参数校验，数据聚合裁剪，树形数据结构，api同步，服务注册等多个通用功能，方便业务开发快速启项目。支持组织内部超10个标准项目，上百个交付项目。<br /> 使用SpringBoot，SpringCloudGateway，Oauth2，Redis，Postgresql，nacos等技术。 <br /> 后端开发共2人，本人负责开发脚手架，api网关，用户管理的开发。 "
+    detail: " 业务中台定位，包含开发脚手架，网关，服务治理，用户管理，认证授权，多身份源治理等模块。支持微服务和单体式架构。开发脚手架中包含代码生成，orm，日志收集，多级缓存，事件总线，参数校验，数据聚合裁剪，树形数据结构，api同步，服务注册等多个通用功能，方便业务开发快速启项目。支持组织内部超10个标准项目，上百个交付项目。<br /> 使用SpringBoot，SpringCloudGateway，Oauth2，Redis，Postgresql，nacos等技术。 <br /> 后端开发共2人，本人负责开发脚手架，网关，用户管理，认证授权的开发。 "
 - type: projectss
   name: 项目
   content:
@@ -82,7 +80,7 @@ main: #简历主要内容，
     detail: " 给KFC定制化开发，类似快递柜一样的取餐柜，外卖员存餐，用户取餐，会放到公寓或写字楼一层。至今仍在使用，有上百个柜子，工作日有上万个订单。有用户管理，取餐柜管理，运营统计等功能。<br />   使用SpringBoot，Postgresql，docker等技术 <br /> 本人负责后端开发和运维。 "
   - title: 化工仿真平台
     duration: 2017年04月 - 2020年5月
-    detail: " 化工仿真培训以及事故分析平台，包含化工流程组态和化工流程仿真，用户可上传算法jar包，使用图形组模方式将算法串联起来，可多用户同时进行动态仿真。 <br /> springMVC架构，使用redis实时数据，websocket与第三方通讯。<br />实验室2017年到2020年的7个科研横向项目全都基于此平台。现在(2022年)仍在使用。 <br /> 共3人开发，本人全程参与做了三年。"
+    detail: " 化工仿真培训以及事故分析平台，包含化工流程组态和化工流程仿真，用户可上传算法jar包，使用图形组模方式将算法串联起来，可多用户同时进行动态仿真。 <br /> springMVC架构，使用redis实时数据，websocket与第三方通讯。<br />实验室2017年到2020年的7个科研横向项目全都基于此平台。现在(2023年)仍在使用。 <br /> 共3人开发，本人全程参与做了三年。"
    #可继续添加更多内容
 - type: experience
   name: 学生工作
@@ -116,18 +114,12 @@ others: #其他列表显示
 - type: skills #ID可以为空
   name: '专利'
   content: #选择需要的格式
-    - title: "一种可配置的网关通讯协议解析转换系统"
-      text: " "
-    - title: "一种基于服务发现的分布式微服务编排方法"
-      text: " "
-    - title: "一种基于可视化的通用统计接口生成方法"
-      text: " "
-    - title: "一种分布式延时消息队列系统"
+    - title: "2个已授权，2个公示，2个公司内部通过"
       text: " "
 - type: others #ID可以为空
   name: '个人评价'
   content: #选择需要的格式
-    - title: "3年Java后端开发工作经验，java，数据结构，计算机网络，设计模式等基础扎实, 熟练使用 spring, spring boot, mybatis等框架并阅读大部分源码。熟练使用redis，postgresql，mysql，kafka，RabbitMQ等中间件并了解其原理和设计思想。熟练使用nginx，docker，K8S，Jenkins等工具。经常做组件来重复工作，在公司内开源了开发脚手架，分页排序插件，数据裁剪插件，多级缓存插件等多个开发工具。希望能遇到志同道合的朋友。"
+    - title: "主攻java，崇尚优雅，谨记设计模式及思想，以写出高可维护的代码为目标。经常做组件来重复工作，在公司内开源了开发脚手架，分页排序插件，数据裁剪插件，多级缓存插件等多个开发工具。希望能遇到志同道合的朋友。"
       text: " "
 
 #- type: others #ID可以为空
