@@ -55,7 +55,7 @@ main: #简历主要内容，
     - java，jvm，数据结构，计算机网络，设计模式等基础扎实
   - title: 框架
     items: #itmems 可以小块的方式显示
-    - 熟练使用spring,springboot,mybatis等框架并阅读大部分源码，可基于框架进行二开
+    - 熟练使用spring,springboot,mybatis等框架并阅读大部分源码，可基于框架进行二次开发
   - title: 中间件
     items: #itmems 可以小块的方式显示
     - 熟练使用redis，postgresql，mysql，kafka等中间件并了解其原理和设计思想，会搭建集群
@@ -105,6 +105,8 @@ others: #其他列表显示
 - type: skills #ID可以为空
   name: '获得荣誉'
   content: #选择需要的格式
+  - title: "2022年30人部门绩效第一，唯一评分S"
+    text: " "
   - title: "2020年北京市优秀毕业研究生"
     text: " "
   - title: "2018年校级优秀研究生干部"
