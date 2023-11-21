@@ -52,13 +52,13 @@ main: #简历主要内容，
   content:
   - title: 基础
     items: #itmems 可以小块的方式显示
-    - java，jvm，数据结构和算法，计算机网络，设计模式等基础扎实
-  - title: 框架
+    - java，jvm，多线程，分布式，数据结构和算法，计算机网络，设计模式等基础扎实
+  - title: 框架组件
     items: #itmems 可以小块的方式显示
-    - 熟练使用spring,springboot,mybatis等框架并阅读大部分源码，可基于框架进行二次开发
+    - 熟练使用spring,springboot,mybatis，springCloudGateway等框架组件并阅读大部分源码，能基于框架进行二次开发
   - title: 中间件
     items: #itmems 可以小块的方式显示
-    - 熟练使用redis，postgresql，mysql，kafka，influxDB等中间件并了解其原理和设计思想，会搭建集群
+    - 熟练使用redis，postgresql，mysql，kafka，influxDB等中间件并了解其底层原理和设计思想，会搭建集群
   - title: 工具
     items: #itmems 可以小块的方式显示
     - 熟练使用nginx，docker，K8S，Jenkins,git等工具。
