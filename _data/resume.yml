@@ -52,13 +52,13 @@ main: #简历主要内容，
   content:
   - title: 基础
     items: #itmems 可以小块的方式显示
-    - java，jvm，数据结构，计算机网络，设计模式等基础扎实
+    - java，jvm，数据结构和算法，计算机网络，设计模式等基础扎实
   - title: 框架
     items: #itmems 可以小块的方式显示
     - 熟练使用spring,springboot,mybatis等框架并阅读大部分源码，可基于框架进行二次开发
   - title: 中间件
     items: #itmems 可以小块的方式显示
-    - 熟练使用redis，postgresql，mysql，kafka等中间件并了解其原理和设计思想，会搭建集群
+    - 熟练使用redis，postgresql，mysql，kafka，influxDB等中间件并了解其原理和设计思想，会搭建集群
   - title: 工具
     items: #itmems 可以小块的方式显示
     - 熟练使用nginx，docker，K8S，Jenkins,git等工具。
@@ -68,10 +68,10 @@ main: #简历主要内容，
   content:
   - title: 智慧园区物联管理平台
     duration: 2021年03月 - 2023年9月
-    detail: " 为文旅、商业园区提供包含安防，通行，能源监控，设备运维、商家服务，游客服务，导览导视等模块的解决方案。定制化交付2个大型园区，标准交付5个小型园区，软件部分总销售额超8千万。<br />  基于公司内部行业云平台底座，微服务架构，使用SpringBoot，Redis，Postgresql，kafka，mybatis等技术。<br /> 开发团队共20人，本人负责多协议消息推送，设备管理，事件告警联动，导览导视模块的后端开发。"
+    detail: " 为文旅、商业园区提供包含安防，通行，能源监控，设备运维、商家服务，游客服务，导览导视等模块的解决方案。共交付5个大型园区，接入设备超过30万个。<br />  微服务架构，使用SpringBoot，Redis，Postgresql，kafka，influxDB等技术。<br /> 开发团队共20人，本人负责设备管理，多协议消息推送，事件告警联动，导览导视模块，空间地图管理的后端开发。"
   - title: 行业云平台底座
     duration: 2020年09月 - 2021年12月
-    detail: " 业务中台定位，包含开发脚手架，网关，服务治理，用户管理，认证授权，多身份源治理等模块。支持微服务和单体式架构。开发脚手架中包含代码生成，orm，日志收集，多级缓存，事件总线，参数校验，数据聚合裁剪，树形数据结构，api同步，服务注册等多个通用功能，方便业务开发快速启项目。支持组织内部超10个标准项目，上百个交付项目。<br /> 使用SpringBoot，SpringCloudGateway，Oauth2，Redis，Postgresql，nacos等技术。 <br /> 后端开发共2人，本人负责开发脚手架，网关，用户管理，认证授权的开发。 "
+    detail: " 包含开发脚手架，API网关，服务治理，用户管理，认证授权，多身份源治理等模块。支持微服务、单体式和多租户架构。开发脚手架中包含代码生成，orm，日志收集，多级缓存，事件总线，参数校验，数据聚合裁剪，树形数据结构，api同步，服务注册等多个通用功能，方便业务开发快速启项目。支持组织内部超10个标准项目，上百个交付项目。<br /> 使用SpringBoot，SpringCloudGateway，Oauth2，Redis，Postgresql，Kafka，nacos等技术。 <br /> 后端开发共2人，本人负责开发脚手架，API网关，用户管理的开发。 "
 - type: projectss
   name: 项目
   content:
@@ -105,7 +105,7 @@ others: #其他列表显示
 - type: skills #ID可以为空
   name: '获得荣誉'
   content: #选择需要的格式
-  - title: "2022年30人部门绩效第一，唯一评分S"
+  - title: "2022年35人部门绩效第一，唯一评分S"
     text: " "
   - title: "2020年北京市优秀毕业研究生"
     text: " "
