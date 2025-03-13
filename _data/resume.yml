@@ -43,9 +43,14 @@ main: #简历主要内容，
     detail: 自动化 GPA:3.0 (前20%)
 
   - title: 京东方科技股份有限公司
-    duration: "2020年7月20日 - 今"
+    duration: "2020年7月 - 2024年1月"
     sub: 后端开发岗
     detail: 智慧物联组织-园区产品部门
+
+  - title: 京东
+    duration: "2024年1月 - 今"
+    sub: 软件开发岗
+    detail: 京东科技-保险事业部-技术平台部-互联网业务研发部
 
 - type: skills
   name: "技能"
@@ -55,7 +60,7 @@ main: #简历主要内容，
     - java，jvm，多线程，分布式，数据结构和算法，计算机网络，设计模式等基础扎实
   - title: 框架组件
     items: #itmems 可以小块的方式显示
-    - 熟练使用spring,springboot,mybatis，springCloudGateway等框架组件并阅读大部分源码，能基于框架进行二次开发
+    - 熟练使用spring,springboot,mybatis，springCloud等框架组件并阅读大部分源码，能基于框架进行二次开发
   - title: 中间件
     items: #itmems 可以小块的方式显示
     - 熟练使用redis，postgresql，mysql，kafka，influxDB等中间件并了解其底层原理和设计思想，会搭建集群
@@ -66,15 +71,16 @@ main: #简历主要内容，
 - type: projects
   name: 项目
   content:
+  - title: 经代车险平台
+    duration: 2024年01月 - 2025年1月
+    detail: " 京东APP中京东保险业务，为京东用户提供车险购买、续保、理赔等一站式服务。<br /> 负责车险平台后端开发，包括车险报价、投保、核保、理赔等业务。<br /> 使用SpringBoot，SpringCloud，Mybatis，Postgresql，Redis，Kafka，K8S等技术。"
+
   - title: ez-cdc
     duration: 2023年07月 - 2023年12月
     detail: " 一个去中心化的分布式的数据更改捕获服务，暂时只支持postgresql，可输出到http，kafka，es和redis。输出到http和kafka主要用于事件通知，输出到es主要用于全文检索，输出到redis主要用于更新缓存。<br />本服务基于debezium(类似canal)来获取postgresql的WAL，由nacos负责元数据和持久化服务，使用redis分布式锁和记录offset，使用influxDB来做qps监控，所有节点均可负责任务接收、分配，ip端口靠前的节点完成任务的重分配。 <br /> 项目管理和后端由本人完成，已在智慧园区平台中使用。 "
   - title: 智慧园区管理平台
     duration: 2021年03月 - 2023年12月
     detail: " 为文旅、商业园区提供包含安防，通行，能源监控，设备运维、商家服务，游客服务，导览导视等模块的解决方案。共交付5个大型园区，接入设备超过30万个。<br />  微服务架构，使用SpringBoot，Redis，Postgresql，kafka，influxDB等技术。<br /> 开发团队共20人，本人负责设备管理，多协议消息推送，事件告警联动，导览导视模块，空间地图管理的后端开发。"
-- type: projectss
-  name: 项目
-  content:
   - title: 行业云基础平台
     duration: 2020年09月 - 2021年12月
     detail: " 包含开发脚手架，API网关，服务治理，用户管理，认证授权，多身份源治理等模块。支持微服务、单体式和多租户架构。开发脚手架中包含代码生成，orm，日志收集，多级缓存，事件总线，参数校验，数据聚合裁剪，树形数据结构，api同步，服务注册等多个通用功能，方便业务开发快速启项目。支持组织内部超20个标准项目，上百个交付项目。<br /> 使用SpringBoot，SpringCloudGateway，Oauth2，Redis，Postgresql，Kafka，nacos等技术。 <br /> 后端开发共2人，本人负责开发脚手架，API网关，用户管理和多租户的开发。 "
@@ -84,6 +90,7 @@ main: #简历主要内容，
   - title: 化工仿真平台
     duration: 2017年04月 - 2020年5月
     detail: " 化工仿真培训以及事故分析平台，主要用于灾害演练培训工人，包含化工流程组态和化工流程仿真，用户可上传算法jar包，使用图形组模方式将算法串联起来，可多用户同时在浏览器和3D软件中进行动态仿真。 <br /> springMVC架构，使用redis存储实时数据，websocket与第三方通讯。<br />实验室2017年到2020年的7个科研横向项目全都基于此平台。现在(2023年)仍在使用。 <br /> 共3人开发，本人全程参与做了三年。"
+
    #可继续添加更多内容
 - type: experience
   name: 学生工作
